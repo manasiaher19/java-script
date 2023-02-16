@@ -56,8 +56,8 @@
 // let birthYears = [1989, 1990, 1991, 1992]
 // let ages = []
 // for (i = 0; i < birthYears.length; i++) {
-//     console.log(i)
-//     console.log(birthYears[i])
+//     // console.log(i)
+//     // console.log(birthYears[i])
 //     // console.log(2023-birthYears[i])
 //     let ag = 2023 - birthYears[i]
 //     ages.push(ag)
@@ -66,13 +66,53 @@
 
 
 //program
-let numbers = [33, 44, 55, 66, 22, 33, 55]
-let above40 = []
-for (let i = 0; i < numbers.length; i++) {
+
+// let numbers = [33,44,55,66,22,33,55]
+// let above40 = [] // [44]
+// //[44,55,66,55]
+// for(let i = 0 ; i < numbers.length ; i++){
+//    // console.log(i)
+//    //console.log(numbers[i])
+//    if(numbers[i] > 40){
+//         above40.push(numbers[i])
+//    }
+// }
+// console.log(above40)
+
+//program 
+
+// let numbers = [22,33,55,66,77,33,44,55,66]
+// let above50 = []
+// //[55,66,77,55,66]
+// for(let i  = 0 ; i < numbers.length ; i++){
+//     //console.log(i)
+//     //console.log(numbers[i])
+//     if(numbers[i] > 50){
+//         above50.push(numbers[i])
+//     }
+// }
+// console.log(above50)
+
+
+//program
+// let addAll = [11, 22, 33] //11+22+33 ===> 66
+// let sum = 0
+// for (i = 0; i < addAll.length; i++) {
+//     // console.log(i)
+//     // console.log(addAll[i])
+//     sum = sum + addAll[i]
+//     //   0  + 11    ===>11
+//     //   11 + 22    ===>33
+//     //   33 + 33    ====>66
+// }
+// console.log(sum)
+
+// program
+let city = ["pune","mumbai","nashik"]
+for(i=0;i<city.length;i++)
+{
     // console.log(i)
-    // console.log (numbers(i))
-    if (numbers[i] > 40) {
-        above40.push(numbers[i])
-    }
-    console.log(above40)
+    // console.log(city[i])
+    console.log("Welcome  "+ city[i])
 }
+
