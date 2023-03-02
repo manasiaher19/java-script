@@ -184,12 +184,12 @@
 //     console.log("Welcome  "+ city[i])
 // }
 
-// let cities = ["nashik", "pune", "nagar"]
-// let Q = cities.forEach(function (el, index, arr) {
-//     //console.log(el)
-//     console.log("Welcome " + el)
-// })
-// console.log(Q)
+let cities = ["nashik", "pune", "nagar" ,"mumbai" ]
+let Q = cities.forEach(function (el, index, arr) {
+    // console.log(el)
+    console.log("Welcome " + el)
+})
+console.log(Q)
 
 //  let N = [10 , 20 , 30 ]
 //  let sum = N.forEach(function(el,index,arr){
@@ -219,6 +219,13 @@
 //     return el > 30
 // })
 // console.log(ANS)
+
+//program 3
+// let D = [11,22,11,22]
+// let ANS = D.find(function(el){
+//     return el > 30
+// })
+// console.log(ANS) // undefined
 
 //============================================================================
 //findIndex() ====> gets first true index from left side
