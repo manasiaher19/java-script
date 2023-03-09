@@ -47,4 +47,23 @@
 
 //console.log(Math.floor(Math.random()*5)) //0-4 (integer)
 
-console.log(Math.floor(Math.random()*5)+1) //0 - 5 (integer)
+//console.log(Math.floor(Math.random()*5)+1) //1 - 5 (integer)
+
+//================================================================================================
+//Guessing game
+
+//system random no => Math.floor(Math.random()*5)+1
+//user input no
+//system random no == user input no ==> guess corect
+
+//PROGRAM 1
+
+let randomNo = Math.floor(Math.random() * 5) + 1
+console.log(randomNo)
+let userNo = prompt("please enter any no between 1-5")
+if(randomNo =userNo ){
+    console.log("your guess is correct")
+}
+else{
+    console.log("your guess is incorrect")
+}
