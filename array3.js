@@ -184,12 +184,12 @@
 //     console.log("Welcome  "+ city[i])
 // }
 
-let cities = ["nashik", "pune", "nagar" ,"mumbai" ]
-let Q = cities.forEach(function (el, index, arr) {
-    // console.log(el)
-    console.log("Welcome " + el)
-})
-console.log(Q)
+// let cities = ["nashik", "pune", "nagar" ,"mumbai" ]
+// let Q = cities.forEach(function (el, index, arr) {
+//     //console.log(el)
+//     console.log("Welcome  " + el)
+// })
+// console.log(Q)
 
 //  let N = [10 , 20 , 30 ]
 //  let sum = N.forEach(function(el,index,arr){
@@ -278,8 +278,10 @@ console.log(Q)
 
 //==========================================================================================
 //slice() ==> break the array .....left => right
+//if we go with right to left ==> blank array is o/p
+
 //program 1
-//            0   1  2   3   4    5
+//               0   1  2   3   4    5
 // let array = [11, 22, 33, 44, 55, 66]
 // let Finalarray = array.slice(2,5)//33,44,55
 // console.log(Finalarray)
@@ -291,9 +293,9 @@ console.log(Q)
 // console.log(a1)
 
 //program 3
-//          0   1   2   3   4   5   6   7
+//              0   1   2   3   4   5   6   7
 // let arr1 = [11, 22, 33, 44, 55, 66, 77, 88]
-// let arr2 = arr1.slice(4,5)
+// let arr2 = arr1.slice(4,5)//55
 // console.log(arr2)
 
 //program 4
@@ -307,7 +309,7 @@ console.log(Q)
 // //        0  1    2   3  4   
 // let S = [10, 20, 30, 40, 50]
 // //       -3  -4  -3  -2  -1
-// let D = S.slice(-1,2) //[]
+// let D = S.slice(-1,2) //[] bcause we go right to left
 // console.log(D)
 
 // //program 6
@@ -317,6 +319,12 @@ console.log(Q)
 // let D = S.slice(1,-1) //[20,30,40]
 // console.log(D)
 
+//program 7
+// //        0  1    2   3  4   
+// let S = [10, 20, 30, 40, 50]
+// //       -3  -4  -3  -2  -1
+// let D = S.slice(-1,1) //[]
+// console.log(D)
 //===============================================================
 //splice() ==> delete element & also add new elements
 
@@ -389,3 +397,81 @@ console.log(Q)
 
 // let M = V.at(3)
 // console.log(M)
+
+//====================================================================
+//fill()
+//syntax : arrayname(ele which need to fill,start position,end position)
+
+//program 1
+//             -5   -4  -3  -2  -1
+// let Marks = [34, 12, 22, 55, 89]
+// //           0   1    2   3   4
+// let Y1 = Marks.fill("manasi", 0, 3)  //[manasi,manasi,manasi,55,89]
+// console.log(Y1)
+
+//program 2
+// //          -5   -4  -3  -2  -1
+//  let Marks1 = [34, 12, 22, 55, 89]
+// // //           0   1    2   3   4
+//  console.log(Marks1.fill(0,2)) //[ 34, 12, 0, 0, 0 ]
+
+//  //program 3
+// //          -5   -4  -3  -2  -1
+// let Marks = [34, 12, 22, 55, 89]
+// //           0   1    2   3   4
+// console.log(Marks.fill('hey',-1)) //[ 34, 12, 22, 55, 'hey' ]
+
+// //program 4
+// //          -5   -4  -3  -2  -1
+// let Marks = [34, 12, 22, 55, 89]
+// //           0   1    2   3   4
+// console.log(Marks.fill('hey',-1,-4)) //[ 34, 12, 22, 55, 89 ]
+
+//program 5
+// //           -5   -4  -3  -2  -1
+// let Marks = [34, 12, 22, 55, 89]
+// //             0   1    2   3   4
+// console.log(Marks.fill(0,0,-2)) //[0,0,0,55, 89]
+
+//==============================================================================================================
+//concat()
+
+//program 1
+// let a = [2, 3, 4]
+// let b = [10, 20, 30]
+// let arr = a.concat(b)
+// console.log(arr) //[ 2, 3, 4, 10, 20, 30 ]
+
+// //program 2
+// let A = [10, 20, 30]
+// let B = [40, 50, 60]
+// let C = [70, 80, 90]
+// console.log(A.concat(B).concat(C)) //[10, 20, 30, 40, 50,60, 70, 80, 90 ]
+
+// //program 3
+// let P = [100, 200]
+// let Q = ["M", "A"]
+// let R = [300, 400]
+// console.log(P.concat(Q).concat(R)) //[ 100, 200, 'M', 'A', 300, 400 ]
+
+//program 4
+// let P = [100, 200]
+// let Q = ["M", "A"]
+// let R = [300, 400]
+// console.log(P.concat(R).concat(Q)) //[ 100, 200, 300, 400, 'M', 'A' ]
+
+//===================================================================================
+
+//reverse()
+//program 1
+// let arr = [1, 2, 3, 4, 5, 6]
+// let A = arr.reverse()
+// console.log(A)
+
+// //program 2
+// let S = ["manasi", "nupur", "diksha", "mayuri"]
+// console.log(S.reverse())
+
+// //program 3
+// let P = ['m', 'a', 'n', 'a', 's','i']
+// console.log(P.reverse())

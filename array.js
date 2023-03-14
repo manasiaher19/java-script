@@ -1,6 +1,6 @@
 //prog 1
 //              0         1       2        3
-// let names = ["chinmay","mayuri","sarika","poorva"]
+// let names = ["manasi","mayuri","sarika","poorva"]
 // console.log(names[0])
 // console.log(names[3])
 // console.log(names.length)
@@ -28,13 +28,13 @@
 
 //prog 4
 
-// let names = ["chinmay","mayuri","sarika","poorva"]
+// let names = ["manasi","mayuri","sarika","poorva"]
 // console.log(names[0])
 // console.log(names[1])
 // console.log(names[names.length-1])
 
 //prog 5
-// names = ["chinmay","sarika","poorva","minal","amol"]
+// names = ["manasi","sarika","poorva","minal","amol"]
 
 // console.log(names[0])
 
@@ -48,7 +48,7 @@
 // }
 
 //prog 6
-// names = ["chinmay","sarika","poorva","minal","amol"]
+// names = ["manasi","sarika","poorva","minal","amol"]
 // // console.log(names[3])
 // let a=names.length
 // console.log(a)

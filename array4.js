@@ -167,11 +167,11 @@
 //====================================================================================
 //forEach()
 //program 1
-// let City = ["pune", "mumbai", "nashik", "dhule"]
-// let Q7 = City.forEach(function (el, index, arr) {
-//   console.log("WelCome  " + el)
-// })
-// console.log(Q7)
+let City = ["pune", "mumbai", "nashik", "dhule"]
+let Q7 = City.forEach(function (el, index, arr) {
+  console.log("WelCome  " + el)
+})
+console.log(Q7)
 
 //program 2
 //             0          1        2        3         
@@ -208,15 +208,15 @@
 //==================================================================================
 //findIndex()
 //program 1
-let Num = [20, 30, 40, 50]
-let N2 = Num.findIndex(function (el, index, arr) {
-  return el > 40
-})
-console.log(N2) //3
+// let Num = [20, 30, 40, 50]
+// let N2 = Num.findIndex(function (el, index, arr) {
+//   return el > 40
+// })
+// console.log(N2) //3
 
-//program 2
-let Num1 = [12, 13, 14, 15, 16]
-let N3 = Num1.findIndex(function (el, index, arr) {
-  return el > 14
-})
-console.log(N3)
+// //program 2
+// let Num1 = [12, 13, 14, 15, 16]
+// let N3 = Num1.findIndex(function (el, index, arr) {
+//   return el > 14
+// })
+// console.log(N3)
