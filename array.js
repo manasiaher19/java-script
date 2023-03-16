@@ -48,11 +48,11 @@
 // }
 
 //prog 6
-// names = ["manasi","sarika","poorva","minal","amol"]
-// // console.log(names[3])
-// let a=names.length
-// console.log(a)
-// console.log(typeof a)
+names = ["manasi","sarika","poorva","minal","amol"]
+// console.log(names[3])
+let a=names.length
+console.log(a)
+console.log(typeof a)
 
 //prog 7
 //print every element of array

@@ -178,24 +178,24 @@
 //program 1
 //using for loop print welcome(city)
 
-// let city = ["nashik","pune","nagar"]
-// for(let i =0;i<city.length;i++){
+// let city = ["nashik", "pune", "nagar"]
+// for (let i = 0; i < city.length; i++) {
 //     //console.log(i)
-//     console.log("Welcome  "+ city[i])
+//     console.log("Welcome  " + city[i])
 // }
 
-// let cities = ["nashik", "pune", "nagar" ,"mumbai" ]
+// let cities = ["nashik", "pune", "nagar", "mumbai"]
 // let Q = cities.forEach(function (el, index, arr) {
 //     //console.log(el)
 //     console.log("Welcome  " + el)
 // })
 // console.log(Q)
 
-//  let N = [10 , 20 , 30 ]
-//  let sum = N.forEach(function(el,index,arr){
+// let N = [10, 20, 30]
+// let sum = N.forEach(function (el, index, arr) {
 //     console.log(3 + el)
-//  })
-//  console.log(sum)
+// })
+// console.log(sum)
 
 //  let No = [10 , 20 , 30 ]
 //  let A = No.forEach(function(el,index,arr){
@@ -289,7 +289,7 @@
 //program 2
 // //          0   1   2   3   4   5   6   7
 // let arr = [11, 22, 33, 44, 55, 66, 77, 88]
-// let a1 = arr.slice(4,7) 
+// let a1 = arr.slice(4,7)
 // console.log(a1)
 
 //program 3
@@ -299,28 +299,28 @@
 // console.log(arr2)
 
 //program 4
-//           0    1    2    3    4    5    6     
+//           0    1    2    3    4    5    6
 // let X = [100, 200, 300, 400, 500, 600, 700]
 // //       -7   -6    -5    -4  -3   -2  -1
 // let Y = X.slice(2, -3)//[300 , 400]
 // console.log(Y)
 
 //program 5
-// //        0  1    2   3  4   
+// //        0  1    2   3  4
 // let S = [10, 20, 30, 40, 50]
 // //       -3  -4  -3  -2  -1
 // let D = S.slice(-1,2) //[] bcause we go right to left
 // console.log(D)
 
 // //program 6
-// //        0  1    2   3  4   
+// //        0  1    2   3  4
 // let S = [10, 20, 30, 40, 50]
 // //       -3  -4  -3  -2  -1
 // let D = S.slice(1,-1) //[20,30,40]
 // console.log(D)
 
 //program 7
-// //        0  1    2   3  4   
+// //        0  1    2   3  4
 // let S = [10, 20, 30, 40, 50]
 // //       -3  -4  -3  -2  -1
 // let D = S.slice(-1,1) //[]
@@ -329,14 +329,14 @@
 //splice() ==> delete element & also add new elements
 
 //program 1
-//       0   1   2    3   4   5   
+//       0   1   2    3   4   5
 // let S1 = [10, 20, 30, 40, 50, 60]
 // let D1 = S1.splice(1,2,100,200)
 // console.log(D1)
 // console.log(S1)
 
 // //program 2
-// //       0   1   2    3   4   5   
+// //       0   1   2    3   4   5
 // let S2 = [10, 20, 30, 40, 50, 60]
 // let D2 = S2.splice(1,2,100,200,300)
 // console.log(D2)
@@ -373,7 +373,7 @@
 //at() ===> print element present at  perticular index
 
 //program
-//          0  1   2   3   4   5 
+//          0  1   2   3   4   5
 // let Num = [11, 22, 33, 44, 55, 66]
 // //console.log(Num.at(4))
 // let F1 = Num.at(4)
@@ -391,7 +391,7 @@
 
 //program 3
 // let V = [22.1 , 33.1 ,44.1 ,55.1 ,66.1]
-// console.log(V.at(2)) 
+// console.log(V.at(2))
 
 // //OR
 
@@ -427,7 +427,14 @@
 // //           0   1    2   3   4
 // console.log(Marks.fill('hey',-1,-4)) //[ 34, 12, 22, 55, 89 ]
 
-//program 5
+// // //program 5
+// //          -5   -4  -3  -2  -1
+// let Marks = [34, 12, 22, 55, 89]
+// //           0   1    2   3   4
+// console.log(Marks.fill('hey'))  //[ 'hey', 'hey', 'hey', 'hey', 'hey' ]
+
+
+//program 6
 // //           -5   -4  -3  -2  -1
 // let Marks = [34, 12, 22, 55, 89]
 // //             0   1    2   3   4
