@@ -30,7 +30,7 @@ console.log(sum)
 //
 let n = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19,]
 let Sum = []
-for(let i = 0;i<= n.length;i++){
+for (let i = 0; i <= n.length; i++) {
     // console.log(i)
     // console.log(n[i])
     Sum = 2 * n[i] / 3

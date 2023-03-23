@@ -373,10 +373,15 @@
 // console.log(`${A} + ${20} = 30`)
 
 //program 4
-let X = 50
-let Y = 50
+// let X = 50
+// let Y = 50
 
-//what is the ans of 50 + 50
-console.log(`what is the ans of ${X} + ${X} `)
+// //what is the ans of 50 + 50 ?
+// console.log(`what is the ans of ${X} + ${X} ? `)
 
-console.log(`what is the ans of ${X} + ${Y} `)
+// //console.log("what is the ans of ${X} + ${Y} ") // what is the ans of ${X} + ${Y}
+
+// //program 5
+
+// console.log(`${5+5}`) //10
+
