@@ -1,30 +1,34 @@
 
-let student = [
-    {
-        firstname: "manasi",
-        lastname: "aher",
-        age: 23,
-        skill: ["java", "js"]
-    },
-    {
-        firstname: "nikita",
-        lastname: "pawar",
-        age: 25,
-        skill: ["cy", "python"]
-    },
-    {
-        firstname: "nidhi",
-        lastname: "mehta",
-        age: 50,
-        skill: ["html", "javascript"]
-    },
-    {
-        firstname: "manjusha",
-        lastname: "jondhale",
-        age: 40,
-        skill: ["c", "SQL"]
-    }
-]
+// let student = [
+//     {
+//         firstname: "manasi",
+//         lastname: "aher",
+//         age: 23,
+//         city:"pune",
+//         skill: ["java", "js","html"]
+//     },
+//     {
+//         firstname: "nikita",
+//         lastname: "pawar",
+//         age: 25,
+//         city:"nashik",
+//         skill: ["cy", "python","html"]
+//     },
+//     {
+//         firstname: "nidhi",
+//         lastname: "mehta",
+//         age: 50,
+//         city:"mumbai",
+//         skill: ["html", "javascript","html"]
+//     },
+//     {
+//         firstname: "manjusha",
+//         lastname: "jondhale",
+//         age: 40,
+//         city:"pune",
+//         skill: ["c", "SQL","html"]
+//     }
+// ]
 
 // //how many ele present in student
 // //example      0  1  2
@@ -79,8 +83,55 @@ let student = [
 // console.log(sum) //138
 
 //OR
-let Total = student.reduce((acc,el)=>{
-    return acc + el.age
-},0)
-console.log(Total) //138
- 
+// let Total = student.reduce((acc,el)=>{
+//     return acc + el.age
+// },0)
+// console.log(Total) //138
+//--------------------------------------------------------------------------------------------------------
+// console.log(student[0].firstname) //manasi
+// console.log(`${student[0].firstname} ${student[0].lastname}`)  //manasi aher 
+// console.log(student[2].age) //50
+//-----------------------------------------------------------------------------------------------
+//program 4
+// //print student first name & skill length
+// for (let i = 0; i < student.length; i++) {
+//     console.log((`${student[i].firstname} : ${student[i].skill.length}`))
+// }
+
+// //OR
+// for (let i = 0; i < student.length; i++) {
+//     console.log((student[i].firstname + ":" + student[i].skill.length))
+// }
+//-----------------------------------------------------------------------------------
+//program 5
+//print student first name & city
+
+// for(let i = 0; i < student.length; i++){
+//     console.log((`${student[i].firstname} : ${student[i].age}`))
+// }
+
+//OR
+// student.forEach(function(el){
+//     console.log(el.firstname +":"+el.age)
+// })
+
+//OR
+// student.forEach((el)=>{
+//     console.log(el.firstname +":"+ el.age)
+// })
+//-----------------------------------------------------
+//program 6
+//print those stud whoes city is pune & skill is html
+// student.forEach(function(el){
+//     if(el.city =="pune" && el.skill.includes("html")){
+//         console.log(el.firstname)
+//     }
+// })
+
+//OR 
+
+// for(let i=0;i<student.length;i++){
+//     if(student[i].city=="pune" && student[i].skill.includes("html")){
+//         console.log(student[i].firstname)
+//     }
+// }

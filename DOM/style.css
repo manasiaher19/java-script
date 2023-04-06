@@ -1,0 +1,18 @@
+h1{
+    color: darkslateblue;
+    background-color: yellow;
+    height: 40px;
+    width: 150px;
+}
+p{
+    color: red
+}
+ul{
+    color: crimson
+}
+ol{
+    color: darkgreen;
+    height: 80px;
+    width: 80px;
+    
+}

@@ -116,8 +116,8 @@
 // }
 
 // //by using for loop print key & values in newFamily //***************************************** 
-// for(let key in family){
-//     console.log(key,family[key])
+// for(let key in newfamily){
+//     console.log(key,newfamily[key])
 // } //error
 
 // //print first sibling
@@ -156,7 +156,7 @@
 //         }
 
 //     }
-    
+
 // }
 // //by using for loop print  key,value,key & value
 // //key
@@ -191,22 +191,22 @@
 
 //=====================================================================
 //example 4
-let car ={
-    Name:["maruti","suzuki","audi"],
-    Wheels:4,
-    color:["black","red","blue"],
-    owner:{
-        name:"Saii",
-        age:25,
-        address:"nashik",
-        education:{
-            degree:["bcs","mcs"],
-            passingyear:2012
-        }
+// let car ={
+//     Name:["maruti","suzuki","audi"],
+//     Wheels:4,
+//     color:["black","red","blue"],
+//     owner:{
+//         name:"Saii",
+//         age:25,
+//         address:"nashik",
+//         education:{
+//             degree:["bcs","mcs"],
+//             passingyear:2012
+//         }
 
-    }
-    
-}
+//     }
+
+// }
 console.log(car) //**************************************************
 //print key & value of car
 
