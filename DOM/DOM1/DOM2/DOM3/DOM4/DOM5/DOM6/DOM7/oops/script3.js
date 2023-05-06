@@ -53,37 +53,40 @@
 // C1.displayName() //undefined //**********************
 //=====================================================================
 //3.by Using Function
-class Empl{
-    fullname(fn){
-        this.fullname=fn
-    }
-    displayName(){
-        return this.fullname
-    }
-}
-let Kranti = new Empl()
-console.log(Kranti) //Empl {}
-Kranti.fullname("Kranti S.P")
-console.log(Kranti) //Empl { fullname: 'Kranti S.P' }
-console.log(Kranti.displayName()) //Kranti S.P
+// class Empl{
+//     fullname1(fn){
+//         this.fullname=fn
+//     }
+//     displayName(){
+//         return this.fullname
+//     }
+// }
+// let Kranti = new Empl()
+// console.log(Kranti) //Empl {}
+// Kranti.fullname1("Kranti S.P")
+// console.log(Kranti) //Empl { fullname: 'Kranti S.P' }
+// console.log(Kranti.displayName()) //Kranti S.P
 //===============================================================
 //4.set & get keyword
-class Person{
-    set fullName(fn){
-        this.Name=fn
-    }
-    get displayName(){
-        return this.Name
-    }
-}
+// class Person{
+//     set fullName(fn){
+//         this.Name=fn
+//     }
+//     get displayName(){
+//         return this.Name
+//     }
+// }
 // let Laxman = new Person()
 // console.log(Laxman) //Person {}
 // Laxman.fullName="Laxman M.L"
 // console.log(Laxman) //Person { fullName: 'Laxman M.L' }
 // console.log(Laxman.displayName) //Laxman M.L
 
-let Sai = new Person()
-console.log(Sai)
-Sai.fullName="Sai Aher"
-console.log(Sai)
-console.log(Sai.displayName)
+// let Sai = new Person()
+// console.log(Sai)
+// Sai.fullName="Sai Aher"
+// console.log(Sai)
+// console.log(Sai.displayName)
+
+//####################################################################################
+
