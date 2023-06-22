@@ -166,48 +166,60 @@
 // O.displayName() // Mr.Ravi Kadam
 // O.displayName() //Ravi Kadam (override from parent Student)
 
-//program 6
-class Grandfather {
-    constructor(gn, ln) {
-        this.gname = gn
-        this.lname = ln
+// //program 6
+// class Grandfather {
+//     constructor(gn, ln) {
+//         this.gname = gn
+//         this.lname = ln
+//     }
+//     displayName() {
+//         console.log(this.gname, this.lname)
+//     }
+// }
+// class Father extends Grandfather {
+//     constructor(gn, ln, fn) {
+//         super(gn, ln)
+//         this.fname = fn
+//     }
+//     displayName() {
+//         super.displayName()
+//         console.log(this.fname, this.lname)
+//     }
+
+// }
+// class Son extends Father {
+//     constructor(gn, ln, fn, sn) {
+//         super(gn, ln, fn)
+//         this.sname = sn
+//     }
+//     displayName() {
+//         super.displayName()
+//         console.log(this.sname, this.lname)
+//     }
+// }
+// let S1 = new Son('Sitaram','Aher','Sunil','Nikhil')
+// console.log(S1)
+// console.log(S1.gname)
+// console.log(S1.lname)
+// console.log(S1.fname)
+// console.log(S1.sname)
+
+// S1.displayName() //Nikhil Aher
+
+//program 7
+class Person{
+    constructor(pn,pa,page){
+        this.pname=pn
+        this.paddress=pa
+        this.prage=page
     }
-    displayName() {
-        console.log(this.gname, this.lname)
+    displayPerson(){
+        console.log(this.pname)
     }
 }
-class Father extends Grandfather {
-    constructor(gn, ln, fn) {
-        super(gn, ln)
-        this.fname = fn
-    }
-    displayName() {
-        super.displayName()
-        console.log(this.fname, this.lname)
-    }
-
+class Job extends Person{
+    constructor()
 }
-class Son extends Father {
-    constructor(gn, ln, fn, sn) {
-        super(gn, ln, fn)
-        this.sname = sn
-    }
-    displayName() {
-        super.displayName()
-        console.log(this.sname, this.lname)
-    }
-}
-let S1 = new Son('Sitaram','Aher','Sunil','Nikhil')
-console.log(S1)
-console.log(S1.gname)
-console.log(S1.lname)
-console.log(S1.fname)
-console.log(S1.sname)
-
-S1.displayName() //Nikhil Aher
-
-
-
 
 
 
